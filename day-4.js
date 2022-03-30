@@ -19,3 +19,6 @@ console.log("this is a text. There is a number --> 0123".match(/\D/gi));
 console.log("this is a text. There is a number --> 0123".match(/\w{2}/gi));
 console.log("this is a text. There is a number --> 0123".match(/\w{2,5}/gi));
 console.log("this is a text. There is a number --> 0123".match(/\w{5,}/gi));
+console.log("this is a text. There is a number --> 0123".match(/[a-zA-Z_>-]+/gi));
+console.log("gray or grey".match(/gr(a|e)y/gi));
+console.log("color or colour".match(/colo(u)?r/gi));
